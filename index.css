@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(227, 180, 249);
+    text-align: center;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+    
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2rem;
+    box-shadow: 0 0 1.1rem rgb(118, 5, 175);
+    border: none;
+    color: rgb(133, 73, 188);
+    font-size: 5rem;
+    cursor: pointer;
+}
+.reset{
+   
+    height: 5rem;
+    width: 7rem;
+    margin-top: -3rem;
+    font-size:2rem ;
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+    background-color: #f006dd;
+    color: rgb(195, 172, 198);
+    box-shadow: 0 0 1.1rem rgb(118, 5, 175);
+    justify-content: center;
+    align-items: center;
+}
